@@ -67,36 +67,36 @@
   }
   
   #Experience ul {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-}
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
 
 #Experience ul li {
-    display: flex; /* Apply flexbox to each list item */
-    flex-direction: column; /* Stack title and description vertically */
-    margin-bottom: 1.5rem; /* Add space between jobs */
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 1.5rem;
 }
 
 .job-container {
-    display: flex; /* Apply flexbox to the job container */
-    justify-content: space-between; /* Spread title and date apart */
-    align-items: center; /* Align items vertically in the center */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .job-title {
-    font-weight: bold; /* Make job title bold */
-    flex-basis: 70%; /* Allow the title to take up 70% of space */
+    font-weight: bold; 
+    flex-basis: 70%;
 }
 
 .job-date {
-    flex-basis: 30%; /* Allow the date to take up 30% of space */
-    text-align: right; /* Align the date to the right */
+    flex-basis: 30%; 
+    text-align: right;
 }
 
 .job-description {
-    margin-top: 0.5rem; /* Add a little space above the description */
-    font-style: italic; /* Style description text as italic */
+    margin-top: 0.5rem; 
+    font-style: italic; 
 }
 
 #Connect ul{
@@ -117,14 +117,14 @@
 
 @media (min-width: 768px) {
     .fa {
-        font-size: 3rem; /* Increase font size on larger screens */
+        font-size: 3rem;
         width: 5rem;
     }
 }
 
 @media (min-width: 1024px) {
     .fa {
-        font-size: 4rem; /* Further increase font size on even larger screens */
+        font-size: 4rem; 
         width: 6rem;
     }
 }
