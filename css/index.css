@@ -124,19 +124,7 @@
     border-radius: 50%;
 }
 
-@media (min-width: 768px) {
-    .fa {
-        font-size: 3rem; /* tablet sizing */
-        width: 5rem;
-    }
-}
 
-@media (min-width: 1024px) {
-    .fa {
-        font-size: 4rem; /* computer sizing */
-        width: 6rem;
-    }
-}
 
   
   .fa:hover {
@@ -157,4 +145,16 @@
     background: #ffffff;
     color: rgb(0, 0, 0);
   }
-  
+  @media (min-width: 768px) {
+    .fa {
+        font-size: 3rem; /* tablet sizing */
+        width: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fa {
+        font-size: 4rem; /* computer sizing */
+        width: 6rem;
+    }
+}
